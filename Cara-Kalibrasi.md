@@ -39,6 +39,16 @@ void loop() {
 }
 ```
 
+<p align="justify">Setelah data Ro didapatkan, maka langkah selanjutnya yaitu memasukkan data Ro tersebut ke bagian #define lalu upload program.</p>
+
 <br/><br/>
 
 ## Mencari Titik Koordinat Yang Sesuai
+
+<p align="justify">Bukalah link berikut: https://automeris.io/WebPlotDigitizer/ , lalu klik "Launch Now!". Kemudian klik "Load Image". Hal tersebut dapat anda ketahui selengkapnya di bawah ini.</p>
+<img src="https://user-images.githubusercontent.com/54527592/230691437-6e734c51-a1a1-499b-ab66-c18921d6f26b.jpg"/>
+<p align="justify">Upload gambar sesuai dengan link yang telah disediakan: https://lihat.in/api/MQ2CalibrationPicture.</p><br/>
+<p align="justify">Kemudian memilih tipe plot: 2D (X-Y) Plot. Selanjutnya klik "Align Axes" → "Proceed".</p>
+<img src="https://user-images.githubusercontent.com/54527592/230691665-0cfe7167-42a9-4b24-8cde-1571c080a7e2.jpg"/><br/>
+<p align="justify">Selanjutnya, anda harus memberikan batas nilai, mulai dari X1 → X2 → Y1 → Y2. Selanjutnya klik "Complete!" untuk mengatur X-Axis dan Y-Axis. Jangan lupa untuk mencentang bagian "Log Scale" → "OK".</p>
+<img src="https://user-images.githubusercontent.com/54527592/230692139-07392ab0-8119-4a60-ba9e-daa5cfeb4a01.jpg"/><br/>
