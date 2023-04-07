@@ -20,6 +20,7 @@ FUNCTIONS
  BitADC			KEYWORD2
  VRL			KEYWORD2
  getDataCalibration	KEYWORD2
+ viewDataCalibration	KEYWORD2
  roCheck		KEYWORD2
  ratioCheck		KEYWORD2
  mCurve 		KEYWORD2
