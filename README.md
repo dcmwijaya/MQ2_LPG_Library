@@ -14,6 +14,16 @@
 <p align="justify"><i>To get to know more about this MQ-2 sensor, you can see the datasheet available here: https://lihat.in/api/datasheetMQ2</i></p>
 <br/><br/>
 
+## KALIBRASI SENSOR MQ-2: LPG (SENSOR CALIBRATION MQ-2 : LPG)
+
+<p align="justify"><strong>In Indonesian:</strong><br/>
+Sensor MQ-2 dapat anda kalibrasi berdasarkan langkah-langkah yang secara lengkap dibahas pada link berikut: https://lihat.in/api/calibrationMQ2
+</p><br/>
+<p align="justify"><strong>In English:</strong><i><br/>
+You can calibrate the MQ-2 sensor based on the steps which are fully discussed in the following link: https://lihat.in/api/calibrationMQ2
+</i></p>
+<br/><br/>
+
 ## KREATOR (CREATOR)
 
 <p align="justify"><strong>In Indonesian:</strong> MQ2_LPG_Library ini dibuat oleh Devan Cakra M.W pada tahun 2023.</p>
