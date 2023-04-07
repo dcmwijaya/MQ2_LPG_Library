@@ -17,7 +17,7 @@
 ## KALIBRASI SENSOR MQ-2: LPG (SENSOR CALIBRATION MQ-2 : LPG)
 
 <p align="justify"><strong>In Indonesian:</strong><br/>
-Sensor MQ-2 dapat anda kalibrasi berdasarkan langkah-langkah yang secara lengkap dibahas pada link berikut: https://lihat.in/api/calibrationMQ2
+Sensor MQ-2 dapat anda kalibrasi berdasarkan langkah-langkah yang secara lengkap dibahas pada link berikut: https://lihat.in/api/kalibrasiMQ2
 </p><br/>
 <p align="justify"><strong>In English:</strong><i><br/>
 You can calibrate the MQ-2 sensor based on the steps which are fully discussed in the following link: https://lihat.in/api/calibrationMQ2
