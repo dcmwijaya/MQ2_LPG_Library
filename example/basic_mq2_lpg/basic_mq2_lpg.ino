@@ -20,18 +20,19 @@ void setup() {
 #define y2_Value 0.8990240080541785
 #define x_Value 497.4177875376839
 #define y_Value 1.0876679972710004
-#define Ro_Value 2.62
+#define Ro_Value 2.7
 #define Voltage_Value 3.3
 #define bitADC_Value 1023.0
 
 void calibration(){
-  mySensor.RL(RL_Value);
-  mySensor.Ro(Ro_Value);
-  mySensor.Volt(Voltage_Value);
-  mySensor.BitADC(bitADC_Value);
-  mySensor.mCurve(x1_Value, x2_Value, y1_Value, y2_Value);
-  mySensor.bCurve(x_Value, y_Value);
-  mySensor.getDataCalibration();
+  mySensor.RL(RL_Value); // Setting Resistance Load
+  mySensor.Ro(Ro_Value); // Setting Reverse Osmosis
+  mySensor.Volt(Voltage_Value); // Setting voltage in sensor
+  mySensor.BitADC(bitADC_Value); // Setting bit ADC board development
+  mySensor.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // Setting mCurve
+  mySensor.bCurve(x_Value, y_Value); // Setting bCurve
+  mySensor.getDataCalibration(); // Gets data calibration
+  mySensor.viewDataCalibration(); // Prints the data calibration
 }
 
 void loop() {

@@ -50,13 +50,16 @@ double MQ2Sensor::bCurve(double x, double y){
 
 void MQ2Sensor::getDataCalibration(){
   _getDataRo = MQ2Sensor::roCheck();
-  Serial.println("Ro Value: "+String(_getDataRo)); // Prints the Ro value.
   _getDataRatio = MQ2Sensor::ratioCheck();
+}
+
+void MQ2Sensor::viewDataCalibration(){
+  Serial.println("Ro Value: "+String(_getDataRo)); // Prints the Ro value.
   Serial.println("Rs/Ro Value: "+String(_getDataRatio)); // Prints the Rs/Ro value.
   Serial.println("m Value: "+String(_m)); // Prints the m value.
   Serial.println("b Value: "+String(_b)); // Prints the b value.
 }
 
 float MQ2Sensor::readGas(){
-  return _ppm = (pow(10, ((log10(_getDataRatio)-(_b))/(_m))));
+  return _ppm = (pow(10, ((log10(_getDataRatio)-(_b))/(_m))))/750.0;
 }
