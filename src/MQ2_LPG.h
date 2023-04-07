@@ -10,17 +10,23 @@ class MQ2Sensor{
   public:
     void begin(int pin);
     void RL(float RL_Value);
-    void m(float m_Value);
-    void b(float b_Value);
     void Ro(float Ro_Value);
     void Volt(float Voltage_Value);
     void BitADC(float bitADC_Value);
-    void gasCalibration();
+    void VRL();
+    void getDataCalibration();
+    float roCheck();
+    float ratioCheck();
+    double mCurve(double x1, double x2, double y1, double y2);
+    double bCurve(double x, double y);
     float readGas();
 
   private:
     int _pin;
-    float _VRL, _Rs, _ratio, _ppm, _RL, _m, _b, _Ro, _Voltage, _bitADC, gas_read;
+    float _RL, _Ro, _Voltage, _bitADC;
+    float _VRL, _Rs, _Reverseosmosis; 
+    float _getDataRo, _getDataRatio, _m, _b;
+    float _ratio, _ppm;
 };
 
 #endif
