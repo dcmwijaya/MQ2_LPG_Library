@@ -1,4 +1,7 @@
-
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/MQ2_LPG_Library)
+![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20LPG-light.svg?style=flat&logo=arduino&logoColor=white&color=008B8B)
 
 # MQ2_LPG_Library
 This library is used to read the LPG gas data: propane (C3H8) and butane (C4H10) captured by the sensor.
