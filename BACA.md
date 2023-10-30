@@ -11,8 +11,8 @@ Pustaka ini digunakan untuk membaca data gas LPG: propana (C3H8) dan butana (C4H
 ## INFORMASI UMUM
 <img src="https://user-images.githubusercontent.com/54527592/230686113-90f7fdcb-2f2f-4fe1-985b-a4c05e2fe672.jpg"/><br/><br/>
 • Kreator: MQ2_LPG_Library dibuat oleh Devan Cakra M.W pada tahun 2023.<br/>
-• Lembar data: https://components101.com/sensors/mq2-gas-sensor<br/>
-• Cara mengkalibrasi bagian LPG pada sensor MQ-2: https://www.youtube.com/watch?v=Lr5gvtXMCZQ<br/>
+• Lembar data: <a href="https://components101.com/sensors/mq2-gas-sensor">Klik Disini</a><br/>
+• Cara mengkalibrasi bagian LPG pada sensor MQ-2: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/Cara-Kalibrasi.md">Klik Disini</a><br/>
 • Versi Pustaka: V1.0.0 (08-April-2023). <br/>
 • Fitur: Terdapat fungsi kalibrasi MQ-2 yang dinamis, sehingga memudahkan pengguna untuk membaca data gas, terutama LPG.
 
