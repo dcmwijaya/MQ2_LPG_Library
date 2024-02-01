@@ -19,7 +19,7 @@ This library is used to read the LPG gas data: propane (C3H8) and butane (C4H10)
 <br/><br/>
 
 ## LICENSE
-MIT License - Copyright (c) 2023 - Devan C. M. Wijaya, S.Kom
+MIT License - Copyright © 2023 - Devan C. M. Wijaya, S.Kom
 
 Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
 
