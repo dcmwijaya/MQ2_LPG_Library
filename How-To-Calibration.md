@@ -1,6 +1,6 @@
 ## Finding Ro (Reverse Osmosis) Value
 
-```sh
+```ino
 #include <MQ2_LPG.h> // Library declaration.
 #define SensorMQ2_Pin A0 // Sensor pin declaration.
 MQ2Sensor mySensor; // Calls the MQ2Sensor class declared as the mySensor object.
@@ -47,7 +47,7 @@ void loop() {
 
 <p align="justify"><i>Open the following link: https://automeris.io/WebPlotDigitizer/, then click "Launch Now!". Then click "Load Image". You can find out more about this below.</i></p>
 <img src="https://user-images.githubusercontent.com/54527592/230691437-6e734c51-a1a1-499b-ab66-c18921d6f26b.jpg"/>
-<p align="justify"><i>Upload the image according to the link provided: https://lihat.in/api/MQ2CalibrationPicture.</i></p><br/>
+<p align="justify"><i>Upload the image according to the link provided: <a href="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/ed1eb989-1353-4678-97be-7fc626425aa6">Click here</a>.</i></p><br/>
 <p align="justify"><i>Then choose a plot type: 2D (X-Y) Plot. Then click "Align Axes" → "Proceed".</i></p>
 <img src="https://user-images.githubusercontent.com/54527592/230691665-0cfe7167-42a9-4b24-8cde-1571c080a7e2.jpg"/><br/>
 <p align="justify"><i>Next, you must provide a value limit, starting from X1 → X2 → Y1 → Y2. Then click "Complete!" to set the X-Axis and Y-Axis. Don't forget to tick the "Log Scale" → "OK" section.</i></p>
@@ -58,7 +58,7 @@ void loop() {
 <img src="https://user-images.githubusercontent.com/54527592/230692817-40d2f148-5cd2-4255-9fd3-49a02a9cd3c9.jpg"/><br/>
 <p align="justify"><i>In the final step, the coordinate data above is then entered into the code in the #define section of the Arduino IDE.</i></p>
 
-```sh
+```ino
 #include <MQ2_LPG.h> // Library declaration.
 #define SensorMQ2_Pin A0 // Sensor pin declaration.
 int air_quality_detection = 0; // Variable declaration.
