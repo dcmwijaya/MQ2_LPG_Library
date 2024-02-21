@@ -9,7 +9,7 @@ Pustaka ini digunakan untuk membaca data gas LPG: propana (C3H8) dan butana (C4H
 <br/>
 
 ## INFORMASI UMUM
-<img src="https://user-images.githubusercontent.com/54527592/230686113-90f7fdcb-2f2f-4fe1-985b-a4c05e2fe672.jpg"/><br/><br/>
+<img src="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/29a5c6e0-6cd3-40df-a2b2-17083ac7bfa4"/><br/><br/>
 • Kreator: MQ2_LPG_Library dibuat oleh Devan Cakra M.W pada tahun 2023.
 
 • Lembar data: <a href="https://components101.com/sensors/mq2-gas-sensor">Klik Disini</a>
