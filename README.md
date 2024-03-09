@@ -6,10 +6,10 @@
 # MQ2_LPG_Library
 This library is used to read the LPG gas data: propane (C3H8) and butane (C4H10) captured by the sensor.
 
-<br/>
+<br>
 
 ## GENERAL INFORMATION
-<img src="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/29a5c6e0-6cd3-40df-a2b2-17083ac7bfa4"/><br/><br/>
+<img src="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/29a5c6e0-6cd3-40df-a2b2-17083ac7bfa4"><br><br>
 • Creator: MQ2_LPG_Library was created by Devan Cakra M.W in 2023.
 
 • Datasheet: <a href="https://components101.com/sensors/mq2-gas-sensor">Click Here</a>
@@ -20,7 +20,12 @@ This library is used to read the LPG gas data: propane (C3H8) and butane (C4H10)
 
 • Features: There is a dynamic MQ-2 calibration function, making it easier for users to read gas data, especially LPG.
 
-<br/><br/>
+<br><br>
+
+## Appreciation
+If you find this work useful, please support this work as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
+
+<br><br>
 
 ## LICENSE
 MIT License - Copyright © 2023 - Devan C. M. Wijaya, S.Kom
