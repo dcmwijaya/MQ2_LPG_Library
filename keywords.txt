@@ -26,6 +26,7 @@ FUNCTIONS
  mCurve 		KEYWORD2
  bCurve 		KEYWORD2
  readGas		KEYWORD2
+ viewGasData		KEYWORD2
 ========================================
 
 
@@ -39,11 +40,9 @@ VARIABLES
  _bitADC		KEYWORD3
  _VRL			KEYWORD3
  _Rs			KEYWORD3
- _Reverseosmosis	KEYWORD3
  _getDataRo		KEYWORD3
  _getDataRatio		KEYWORD3
  _m 			KEYWORD3
  _b 			KEYWORD3
- _ratio			KEYWORD3
  _ppm 			KEYWORD3
 ========================================
