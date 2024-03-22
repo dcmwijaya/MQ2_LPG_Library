@@ -73,15 +73,15 @@ double MQ2Sensor::bCurve(double x, double y){
 
 
 
-void MQ2Sensor::getDataCalibration(){
+void MQ2Sensor::getCalibrationData(){
   _getDataRo = MQ2Sensor::roCheck();
   _getDataRatio = MQ2Sensor::ratioCheck();
 }
 
 
 
-void MQ2Sensor::viewDataCalibration(){
-  Serial.println("Ro Value: "+String(_getDataRo)); // print to Serial Monitor: Ro value.
+void MQ2Sensor::viewCalibrationData(){
+  Serial.println("\nRo Value: "+String(_getDataRo)); // print to Serial Monitor: Ro value.
   Serial.println("Rs/Ro Value: "+String(_getDataRatio)); // print to Serial Monitor: Rs/Ro value.
   Serial.println("m Value: "+String(_m)); // print to Serial Monitor: m value.
   Serial.println("b Value: "+String(_b)); // print to Serial Monitor: b value.
@@ -91,4 +91,16 @@ void MQ2Sensor::viewDataCalibration(){
 
 float MQ2Sensor::readGas(){
   return _ppm = (pow(10, ((log10(_getDataRatio)-(_b))/(_m))));
+}
+
+
+
+void MQ2Sensor::viewGasData(){
+  Serial.println("\nValue: "+String(_ppm)+"ppm"); // print to serial monitor: air quality value
+  if(_ppm > 700) { // if the sensor value is greater than 700ppm then :
+    Serial.println("Status: danger"); // print to serial monitor: danger
+  } 
+  else { // if the sensor status is not in danger then :
+    Serial.println("Status: safe"); // print to serial monitor: safe
+  }
 }
