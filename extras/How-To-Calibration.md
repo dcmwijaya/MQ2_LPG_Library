@@ -45,7 +45,7 @@ void loop() {
 <i>After the Ro data is obtained, the next step is to enter the Ro data into the #define section.</i>
 
 ```ino
-#define Ro_Value 4.26
+#define Ro_Value 6.31
 ```
 
 <br><br>
