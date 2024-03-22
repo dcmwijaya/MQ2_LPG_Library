@@ -19,7 +19,6 @@ void setup() {
 #define y2_Value 0
 #define x_Value 0
 #define y_Value 0
-#define Ro_Value 0
 #define Voltage_Value 5.0
 #define bitADC_Value 1023.0
 
