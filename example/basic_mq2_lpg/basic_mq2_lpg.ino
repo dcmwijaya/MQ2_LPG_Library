@@ -12,7 +12,7 @@ void setup() {
   mq2.begin(); // initiate mq2 sensor
 }
 
-// Gas Calibration Data
+// gas calibration data
 #define RL_Value 10
 #define x1_Value 199.150007852152
 #define x2_Value 797.3322752256328
@@ -32,12 +32,12 @@ void calibration(){
   mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // setting mCurve
   mq2.bCurve(x_Value, y_Value); // setting bCurve
   mq2.getDataCalibration(); // gets data calibration
-  mq2.viewDataCalibration(); // prints the data calibration
+//  mq2.viewDataCalibration(); // print to serial monitor: data calibration
 }
 
 void loop() {
   calibration(); // calls calibration method
   detection = mq2.readGas(); // reading mq2 sensor data
   Serial.println("Value: "+String(detection)+"ppm\n"); // print to serial monitor: air quality value
-  delay(200); // Delay 200ms
+  delay(200); // delay for 3 seconds
 }
