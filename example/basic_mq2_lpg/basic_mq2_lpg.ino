@@ -3,7 +3,6 @@
 
 #include "MQ2_LPG.h" // library declaration
 #define MQ2PIN A0 // mq2 pin declaration
-int detection; // this variable is used to hold mq2 sensor data
 
 MQ2Sensor mq2(MQ2PIN); // create a new object with the name mq2 to hold the MQ2Sensor class
 
@@ -13,7 +12,7 @@ void setup() {
 }
 
 // gas calibration data
-#define RL_Value 10
+#define RL_Value 50
 #define x1_Value 199.150007852152
 #define x2_Value 797.3322752256328
 #define y1_Value 1.664988323698715
@@ -31,13 +30,13 @@ void calibration(){
   mq2.BitADC(bitADC_Value); // setting bit ADC board development
   mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // setting mCurve
   mq2.bCurve(x_Value, y_Value); // setting bCurve
-  mq2.getDataCalibration(); // gets data calibration
-//  mq2.viewDataCalibration(); // print to serial monitor: data calibration
+  mq2.getCalibrationData(); // gets calibration data
+  mq2.viewCalibrationData(); // print to serial monitor: calibration data
 }
 
 void loop() {
   calibration(); // calls calibration method
-  detection = mq2.readGas(); // reading mq2 sensor data
-  Serial.println("Value: "+String(detection)+"ppm\n"); // print to serial monitor: air quality value
+  mq2.readGas(); // reading mq2 sensor data
+  mq2.viewGasData(); // print to serial monitor: gas value & status
   delay(3000); // delay for 3 seconds
 }
