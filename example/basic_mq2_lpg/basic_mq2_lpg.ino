@@ -39,5 +39,5 @@ void loop() {
   calibration(); // calls calibration method
   detection = mq2.readGas(); // reading mq2 sensor data
   Serial.println("Value: "+String(detection)+"ppm\n"); // print to serial monitor: air quality value
-  delay(200); // delay for 3 seconds
+  delay(3000); // delay for 3 seconds
 }
