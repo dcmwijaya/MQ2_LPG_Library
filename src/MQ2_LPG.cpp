@@ -97,7 +97,7 @@ float MQ2Sensor::readGas(){
 
 void MQ2Sensor::viewGasData(){
   Serial.println("\nValue: "+String(_ppm)+"ppm"); // print to serial monitor: air quality value
-  if(_ppm > 700) { // if the sensor value is greater than 700ppm then :
+  if(_ppm > 310) { // if the sensor value is greater than 310ppm then :
     Serial.println("Status: danger"); // print to serial monitor: danger
   } 
   else { // if the sensor status is not in danger then :
