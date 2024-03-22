@@ -40,7 +40,7 @@ void loop() {
 
 <br>
 
-<p align="justify">Setelah data Ro didapatkan, maka langkah selanjutnya yaitu memasukkan data Ro tersebut ke bagian #define.</p>
+Setelah data Ro didapatkan, maka langkah selanjutnya yaitu memasukkan data Ro tersebut ke bagian #define.
 
 ```ino
 #define Ro_Value 4.26
@@ -49,19 +49,32 @@ void loop() {
 <br><br>
 
 ## Mencari Titik Koordinat Yang Sesuai
+  
+  Bukalah link berikut: <a href="https://automeris.io/WebPlotDigitizer/">WebPlotDigitizer</a> , lalu klik ``` Launch Now! ```. Kemudian klik ``` Load Image ```. Hal tersebut dapat anda ketahui selengkapnya di bawah ini.
 
-<p align="justify">Bukalah link berikut: https://automeris.io/WebPlotDigitizer/ , lalu klik "Launch Now!". Kemudian klik "Load Image". Hal tersebut dapat anda ketahui selengkapnya di bawah ini.</p>
 <img src="https://user-images.githubusercontent.com/54527592/230691437-6e734c51-a1a1-499b-ab66-c18921d6f26b.jpg"/>
-<p align="justify">Upload gambar sesuai dengan link yang telah disediakan: <a href="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/ed1eb989-1353-4678-97be-7fc626425aa6">Klik disini</a>.</p><br/>
-<p align="justify">Kemudian memilih tipe plot: 2D (X-Y) Plot. Selanjutnya klik "Align Axes" → "Proceed".</p>
-<img src="https://user-images.githubusercontent.com/54527592/230691665-0cfe7167-42a9-4b24-8cde-1571c080a7e2.jpg"/><br/>
-<p align="justify">Selanjutnya, anda harus memberikan batas nilai, mulai dari X1 → X2 → Y1 → Y2. Selanjutnya klik "Complete!" untuk mengatur X-Axis dan Y-Axis. Jangan lupa untuk mencentang bagian "Log Scale" → "OK".</p>
-<img src="https://user-images.githubusercontent.com/54527592/230692139-07392ab0-8119-4a60-ba9e-daa5cfeb4a01.jpg"/><br/>
-<p align="justify">Langkah berikutnya, klik "Add Point (A)", lalu pilih kurva yang diinginkan (dalam hal ini hanya menggunakan LPG dan Propane). Jangan lupa cari titik koordinat yang saling berhimpitan satu sama lain seperti yang ditampilkan pada gambar berikut.</p>
-<img src="https://user-images.githubusercontent.com/54527592/230692688-5fdb713c-d8e0-41e0-88d8-cb930f8af38b.jpg"/><br/>
-<p align="justify">Kemudian, klik "View Data" untuk mengetahui nilai dari titik koordinat yang telah dipilih tadi. Misalnya seperti yang terlihat pada gambar di bawah ini.</p>
-<img src="https://user-images.githubusercontent.com/54527592/230692817-40d2f148-5cd2-4255-9fd3-49a02a9cd3c9.jpg"/><br/>
-<p align="justify">Langkah terakhir, data koordinat diatas kemudian dimasukkan kedalam kode yang ada di Arduino IDE bagian #define.</p>
+  
+  Upload gambar sesuai dengan link yang telah disediakan: <a href="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/ed1eb989-1353-4678-97be-7fc626425aa6">Klik disini</a>.
+
+<br>
+  
+  Kemudian memilih tipe plot: ``` 2D (X-Y) Plot ```. Selanjutnya klik ``` Align Axes ``` → ``` Proceed ```.
+
+<img src="https://user-images.githubusercontent.com/54527592/230691665-0cfe7167-42a9-4b24-8cde-1571c080a7e2.jpg"/><br>
+  
+  Selanjutnya, anda harus memberikan batas nilai, mulai dari ``` X1 → X2 → Y1 → Y2 ```. Selanjutnya klik ``` Complete! ``` untuk mengatur ``` X-Axis ``` dan ``` Y-Axis ```. Jangan lupa untuk mencentang bagian ``` Log Scale ``` → ``` OK ```.
+
+<img src="https://user-images.githubusercontent.com/54527592/230692139-07392ab0-8119-4a60-ba9e-daa5cfeb4a01.jpg"/><br>
+  
+  Langkah berikutnya, klik ``` Add Point (A) ```, lalu pilih kurva yang diinginkan (dalam hal ini hanya menggunakan LPG dan Propane). Jangan lupa cari titik koordinat yang saling berhimpitan satu sama lain seperti yang ditampilkan pada gambar berikut.
+
+<img src="https://user-images.githubusercontent.com/54527592/230692688-5fdb713c-d8e0-41e0-88d8-cb930f8af38b.jpg"/><br>
+  
+  Kemudian, klik ``` View Data ``` untuk mengetahui nilai dari titik koordinat yang telah dipilih tadi. Misalnya seperti yang terlihat pada gambar di bawah ini.
+
+<img src="https://user-images.githubusercontent.com/54527592/230692817-40d2f148-5cd2-4255-9fd3-49a02a9cd3c9.jpg"/><br>
+  
+  Langkah terakhir, data koordinat diatas kemudian dimasukkan kedalam kode yang ada di Arduino IDE bagian #define.
 
 ```ino
 #define x1_Value 199.150007852152
@@ -73,5 +86,7 @@ void loop() {
 ```
 
 <br>
+  
+  Lalu unggah program.&nbsp;&nbsp;&nbsp;<strong>~ SELESAI... , SELAMAT MENCOBA</strong> ~
 
-<p>Lalu unggah program.&nbsp;&nbsp;&nbsp;<strong>~ SELESAI... , SELAMAT MENCOBA</strong> ~</p>
+</div>
