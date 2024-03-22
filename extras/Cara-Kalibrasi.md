@@ -71,3 +71,7 @@ void loop() {
 #define x_Value 497.4177875376839
 #define y_Value 1.0876679972710004
 ```
+
+<br>
+
+<p>Lalu unggah program.&nbsp;&nbsp;&nbsp;<strong>~ SELESAI... , SELAMAT MENCOBA</strong> ~</p>
