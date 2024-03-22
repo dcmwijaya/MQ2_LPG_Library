@@ -90,7 +90,7 @@ void MQ2Sensor::viewCalibrationData(){
 
 
 float MQ2Sensor::readGas(){
-  return _ppm = (pow(10, ((log10(_getDataRatio)-(_b))/(_m))));
+  return _ppm = (pow(10, ((log10(_getDataRatio)-(_b))/(_m)))); // 10^[(log10(ratio)-b)/m]
 }
 
 
