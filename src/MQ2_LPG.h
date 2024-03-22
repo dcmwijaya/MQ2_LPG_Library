@@ -15,8 +15,8 @@ class MQ2Sensor{
     void Volt(float Voltage_Value);
     void BitADC(float bitADC_Value);
     void VRL();
-    void getDataCalibration();
-    void viewDataCalibration();
+    void getCalibrationData();
+    void viewCalibrationData();
     float roCheck();
     float ratioCheck();
     double mCurve(double x1, double x2, double y1, double y2);
