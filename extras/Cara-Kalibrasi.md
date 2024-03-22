@@ -46,10 +46,6 @@ void loop() {
 #define Ro_Value 4.26
 ```
 
-<br>
-
-<p>Lalu upload program.</p>
-
 <br><br>
 
 ## Mencari Titik Koordinat Yang Sesuai
