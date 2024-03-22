@@ -30,8 +30,8 @@ void calibration(){
   mq2.BitADC(bitADC_Value); // development board adc resolution setting
   mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // mCurve setting
   mq2.bCurve(x_Value, y_Value); // bCurve setting
-  mq2.getDataCalibration(); // get data calibration
-  mq2.viewDataCalibration(); // print to serial monitor: data calibration
+  mq2.getCalibrationData(); // get data calibration
+  mq2.viewCalibrationData(); // print to serial monitor: data calibration
 }
 
 void loop() {
