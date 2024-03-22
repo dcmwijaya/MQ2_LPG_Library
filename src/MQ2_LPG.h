@@ -4,7 +4,7 @@
 #ifndef MQ2_LPG_H
 #define MQ2_LPG_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 
 class MQ2Sensor{
   public:
