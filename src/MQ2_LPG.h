@@ -26,10 +26,7 @@ class MQ2Sensor{
 
   private:
     uint8_t _pin;
-    float _RL, _Ro, _Voltage, _bitADC;
-    float _VRL, _Rs, _Reverseosmosis; 
-    float _getDataRo, _getDataRatio, _m, _b;
-    float _ratio, _ppm;
+    float _RL, _Ro, _Voltage, _bitADC, _VRL, _Rs, _getDataRo, _getDataRatio, _m, _b, _ppm;
 };
 
 #endif
