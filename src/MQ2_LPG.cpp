@@ -47,7 +47,7 @@ void MQ2Sensor::VRL(){
 
 float MQ2Sensor::roCheck(){
   VRL();
-  _Rs = (((_Voltage/(_VRL))-1)*(_RL));
+  _Rs = (((_Voltage/(_VRL))-1)*(_RL)); // -1K ohm
   return _Rs/9.6;
 }
 
