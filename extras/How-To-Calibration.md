@@ -23,12 +23,12 @@ void setup() {
 #define bitADC_Value 1023.0 // development board adc resolution
 
 void calibration(){
-  mq2.RL(RL_Value); // setting resistance load
-  mq2.Volt(Voltage_Value); // setting voltage in sensor
-  mq2.BitADC(bitADC_Value); // setting bit ADC board development
-  mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // setting mCurve
-  mq2.bCurve(x_Value, y_Value); // setting bCurve
-  mq2.getDataCalibration(); // gets data calibration
+  mq2.RL(RL_Value); // resistance load setting
+  mq2.Volt(Voltage_Value); // voltage sensor setting
+  mq2.BitADC(bitADC_Value); // development board adc resolution setting
+  mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // mCurve setting
+  mq2.bCurve(x_Value, y_Value); // bCurve setting
+  mq2.getDataCalibration(); // get data calibration
   mq2.viewDataCalibration(); // print to serial monitor: data calibration
 }
 
