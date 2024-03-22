@@ -12,7 +12,7 @@ void setup() {
 }
 
 // gas calibration data
-#define RL_Value 50
+#define RL_Value 10
 #define x1_Value 199.150007852152
 #define x2_Value 797.3322752256328
 #define y1_Value 1.664988323698715
