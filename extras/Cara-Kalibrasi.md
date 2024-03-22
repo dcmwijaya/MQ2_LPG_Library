@@ -58,3 +58,12 @@ void loop() {
 <p align="justify">Kemudian, klik "View Data" untuk mengetahui nilai dari titik koordinat yang telah dipilih tadi. Misalnya seperti yang terlihat pada gambar di bawah ini.</p>
 <img src="https://user-images.githubusercontent.com/54527592/230692817-40d2f148-5cd2-4255-9fd3-49a02a9cd3c9.jpg"/><br/>
 <p align="justify">Langkah terakhir, data koordinat diatas kemudian dimasukkan kedalam kode yang ada di Arduino IDE bagian #define.</p>
+
+```ino
+#define x1_Value 199.150007852152
+#define x2_Value 797.3322752256328
+#define y1_Value 1.664988323698715
+#define y2_Value 0.8990240080541785
+#define x_Value 497.4177875376839
+#define y_Value 1.0876679972710004
+```
