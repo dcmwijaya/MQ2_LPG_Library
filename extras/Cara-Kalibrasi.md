@@ -40,6 +40,8 @@ void loop() {
 
 <br>
 
+<div align="justify">
+
 Setelah data Ro didapatkan, maka langkah selanjutnya yaitu memasukkan data Ro tersebut ke bagian #define.
 
 ```ino
