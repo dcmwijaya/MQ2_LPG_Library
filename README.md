@@ -14,7 +14,7 @@ This library is used to read the LPG gas data: propane (C3H8) and butane (C4H10)
 
 • Datasheet: <a href="https://components101.com/sensors/mq2-gas-sensor">Click Here</a>
 
-• How to calibrate the LPG part of the MQ-2 sensor: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/How-To-Calibration.md">Click Here</a>
+• How to calibrate the LPG part of the MQ-2 sensor: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/extras/How-To-Calibration.md">Click Here</a>
 
 • Library Version: V1.0.0 (08-April-2023).
 
