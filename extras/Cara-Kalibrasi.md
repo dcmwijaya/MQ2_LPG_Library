@@ -24,7 +24,6 @@ void setup() {
 
 void calibration(){
   mq2.RL(RL_Value); // setting resistance load
-  mq2.Ro(Ro_Value); // setting reverse osmosis
   mq2.Volt(Voltage_Value); // setting voltage in sensor
   mq2.BitADC(bitADC_Value); // setting bit ADC board development
   mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // setting mCurve
@@ -39,9 +38,19 @@ void loop() {
 }
 ```
 
-<p align="justify">Setelah data Ro didapatkan, maka langkah selanjutnya yaitu memasukkan data Ro tersebut ke bagian #define lalu upload program.</p>
+<br>
 
-<br/><br/>
+<p align="justify">Setelah data Ro didapatkan, maka langkah selanjutnya yaitu memasukkan data Ro tersebut ke bagian #define.</p>
+
+```ino
+#define Ro_Value 4.26
+```
+
+<br>
+
+<p>Lalu upload program.</p>
+
+<br><br>
 
 ## Mencari Titik Koordinat Yang Sesuai
 
