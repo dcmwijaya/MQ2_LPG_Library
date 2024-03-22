@@ -20,8 +20,8 @@ void setup() {
 #define y2_Value 0.8990240080541785
 #define x_Value 497.4177875376839
 #define y_Value 1.0876679972710004
-#define Ro_Value 2.7
-#define Voltage_Value 3.3
+#define Ro_Value 4.26
+#define Voltage_Value 5.0
 #define bitADC_Value 1023.0
 
 void calibration(){
