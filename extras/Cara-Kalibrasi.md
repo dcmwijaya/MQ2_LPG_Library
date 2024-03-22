@@ -12,7 +12,7 @@ void setup() {
 }
 
 // gas calibration data
-#define RL_Value 10
+#define RL_Value 10 // 10K ohm
 #define x1_Value 0
 #define x2_Value 0
 #define y1_Value 0
@@ -20,7 +20,7 @@ void setup() {
 #define x_Value 0
 #define y_Value 0
 #define Voltage_Value 5.0
-#define bitADC_Value 1023.0
+#define bitADC_Value 1023.0 // development board adc resolution
 
 void calibration(){
   mq2.RL(RL_Value); // setting resistance load
