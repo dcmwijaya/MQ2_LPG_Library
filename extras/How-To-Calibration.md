@@ -56,7 +56,7 @@ void loop() {
 
 <img src="https://user-images.githubusercontent.com/54527592/230691437-6e734c51-a1a1-499b-ab66-c18921d6f26b.jpg">
 
-<i>Upload the image according to the link provided: <a href="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/ed1eb989-1353-4678-97be-7fc626425aa6">Click here</a>.</i>
+<i>Upload the image according to the link provided: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/extras/sensor%20calibration%20graph.png">Click here</a>.</i>
 
 <br>
 
