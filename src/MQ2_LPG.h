@@ -22,6 +22,7 @@ class MQ2Sensor{
     double mCurve(double x1, double x2, double y1, double y2);
     double bCurve(double x, double y);
     float readGas();
+    void viewGasData();
 
   private:
     uint8_t _pin;
