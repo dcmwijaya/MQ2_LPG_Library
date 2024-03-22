@@ -73,14 +73,14 @@ double MQ2Sensor::bCurve(double x, double y){
 
 
 
-void MQ2Sensor::getDataCalibration(){
+void MQ2Sensor::getCalibrationData(){
   _getDataRo = MQ2Sensor::roCheck();
   _getDataRatio = MQ2Sensor::ratioCheck();
 }
 
 
 
-void MQ2Sensor::viewDataCalibration(){
+void MQ2Sensor::viewCalibrationData(){
   Serial.println("\nRo Value: "+String(_getDataRo)); // print to Serial Monitor: Ro value.
   Serial.println("Rs/Ro Value: "+String(_getDataRatio)); // print to Serial Monitor: Rs/Ro value.
   Serial.println("m Value: "+String(_m)); // print to Serial Monitor: m value.
