@@ -12,7 +12,7 @@ void setup() {
 }
 
 // gas calibration data
-#define RL_Value 100
+#define RL_Value 100 // 100K ohm
 #define x1_Value 199.150007852152
 #define x2_Value 797.3322752256328
 #define y1_Value 1.664988323698715
@@ -21,17 +21,17 @@ void setup() {
 #define y_Value 1.0876679972710004
 #define Ro_Value 6.31
 #define Voltage_Value 5.0
-#define bitADC_Value 1023.0
+#define bitADC_Value 1023.0 // development board adc resolution
 
 void calibration(){
-  mq2.RL(RL_Value); // setting resistance load
-  mq2.Ro(Ro_Value); // setting reverse osmosis
-  mq2.Volt(Voltage_Value); // setting voltage in sensor
-  mq2.BitADC(bitADC_Value); // setting bit ADC board development
-  mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // setting mCurve
-  mq2.bCurve(x_Value, y_Value); // setting bCurve
-  mq2.getCalibrationData(); // gets calibration data
-  mq2.viewCalibrationData(); // print to serial monitor: calibration data
+  mq2.RL(RL_Value); // resistance load setting
+  mq2.Ro(Ro_Value); // reverse osmosis setting
+  mq2.Volt(Voltage_Value); // voltage sensor setting
+  mq2.BitADC(bitADC_Value); // development board adc resolution setting
+  mq2.mCurve(x1_Value, x2_Value, y1_Value, y2_Value); // mCurve setting
+  mq2.bCurve(x_Value, y_Value); // bCurve setting
+  mq2.getDataCalibration(); // get data calibration
+  mq2.viewDataCalibration(); // print to serial monitor: data calibration
 }
 
 void loop() {
