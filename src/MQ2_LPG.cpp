@@ -46,7 +46,6 @@ void MQ2Sensor::VRL(){
 
 
 float MQ2Sensor::roCheck(){
-  VRL();
   _Rs = (((_Voltage/(_VRL))-1)*(_RL));
   return _Reverseosmosis = _Rs/9.6;
 }
@@ -54,7 +53,6 @@ float MQ2Sensor::roCheck(){
 
 
 float MQ2Sensor::ratioCheck(){
-  VRL();
   _Rs = ((_Voltage*(_RL))/(_VRL))-(_RL);
   return _ratio = ((_Rs)/(_Ro));
 }
