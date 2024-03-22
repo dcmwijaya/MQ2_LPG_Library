@@ -8,7 +8,8 @@
 
 class MQ2Sensor{
   public:
-    void begin(int pin);
+    MQ2Sensor(uint8_t pin);
+    void begin();
     void RL(float RL_Value);
     void Ro(float Ro_Value);
     void Volt(float Voltage_Value);
@@ -23,7 +24,7 @@ class MQ2Sensor{
     float readGas();
 
   private:
-    int _pin;
+    uint8_t _pin;
     float _RL, _Ro, _Voltage, _bitADC;
     float _VRL, _Rs, _Reverseosmosis; 
     float _getDataRo, _getDataRatio, _m, _b;
