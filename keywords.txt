@@ -27,7 +27,6 @@ FUNCTIONS
  bCurve 		KEYWORD2
  readGas		KEYWORD2
  viewGasData		KEYWORD2
-========================================
 
 
 ========================================
@@ -45,4 +44,6 @@ VARIABLES
  _m 			KEYWORD3
  _b 			KEYWORD3
  _ppm 			KEYWORD3
+
+
 ========================================
