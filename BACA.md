@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/MQ2_LPG_Library)
-![Solo-Project: Library](https://img.shields.io/badge/Solo-%2DProject-%20Library%3A%20LPG-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/MQ2_LPG_Library?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Library-light.svg?style=flat&logo=arduino&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Personal%20Experiment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # MQ2_LPG_Library
 Pustaka ini digunakan untuk membaca data gas LPG: propana (C3H8) dan butana (C4H10) yang ditangkap oleh sensor.
@@ -9,12 +10,12 @@ Pustaka ini digunakan untuk membaca data gas LPG: propana (C3H8) dan butana (C4H
 <br>
 
 ## INFORMASI UMUM
-<img src="https://github.com/devancakra/MQ2_LPG_Library/assets/54527592/29a5c6e0-6cd3-40df-a2b2-17083ac7bfa4"><br><br>
+<img src="extras/documentation/pinout/MQ2.jpg" alt="mq2-sensor-pinout"><br><br>
 • Kreator: Devan Cakra M.W.
 
 • Lembar data: <a href="https://components101.com/sensors/mq2-gas-sensor">Klik Disini</a>
 
-• Cara mengkalibrasi bagian LPG pada sensor MQ-2: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/extras/Cara-Kalibrasi.md">Klik Disini</a>
+• Cara mengkalibrasi bagian LPG pada sensor MQ-2: <a href="extras/articles/Cara Kalibrasi.md">Klik Disini</a>
 
 • Versi Pustaka: V1.0.0 (08-April-2023).
 

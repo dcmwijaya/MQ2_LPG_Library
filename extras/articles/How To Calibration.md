@@ -54,27 +54,27 @@ void loop() {
 
 <i>Open the following link: <a href="https://automeris.io/WebPlotDigitizer/">WebPlotDigitizer</a> , then click ``` Launch Now! ```. Then click ``` Load Image ```. You can find out more about this below.</i>
 
-<img src="https://user-images.githubusercontent.com/54527592/230691437-6e734c51-a1a1-499b-ab66-c18921d6f26b.jpg">
+<img src="../documentation/experiment/Load Image.jpg" alt="load-image">
 
-<i>Upload the image according to the link provided: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/extras/sensor%20calibration%20graph.png">Click here</a>.</i>
+<i>Upload the image according to the link provided: <a href="../documentation/experiment/Calibration Graph.jpg" alt="calibration-graph">Click here</a>.</i>
 
 <br>
 
 <i>Then choose a plot type: ``` 2D (X-Y) Plot ```. Then click ``` Align Axes ``` → ``` Proceed ```.</i>
 
-<img src="https://user-images.githubusercontent.com/54527592/230691665-0cfe7167-42a9-4b24-8cde-1571c080a7e2.jpg"><br>
+<img src="../documentation/experiment/Plot Type.jpg" alt="plot-type"><br>
 
 <i>Next, you must provide a value limit, starting from ``` X1 → X2 → Y1 → Y2 ```. Then click ``` Complete! ``` to set the ``` X-Axis ``` and ``` Y-Axis ```. Don't forget to tick the ``` Log Scale ``` → ``` OK ``` section.</i>
   
-<img src="https://user-images.githubusercontent.com/54527592/230692139-07392ab0-8119-4a60-ba9e-daa5cfeb4a01.jpg"><br>
+<img src="../documentation/experiment/Axes Calibration.jpg" alt="axes-calibration"><br>
 
 <i>In the next step, click ``` Add Point (A) ```, then select the desired curve (in this case using only LPG and Propane). Don't forget to look for coordinate points that overlap each other as shown in the following image.</i>
 
-<img src="https://user-images.githubusercontent.com/54527592/230692688-5fdb713c-d8e0-41e0-88d8-cb930f8af38b.jpg"><br>
+<img src="../documentation/experiment/Add Point.jpg" alt="add-point"><br>
 
 <i>Then, click ``` View Data ``` to find out the value of the coordinate point that was selected earlier. For example, as shown in the image below.</i>
 
-<img src="https://user-images.githubusercontent.com/54527592/230692817-40d2f148-5cd2-4255-9fd3-49a02a9cd3c9.jpg"><br>
+<img src="../documentation/experiment/View Data.jpg" alt="view-data"><br>
 
 <i>In the final step, the coordinate data above is then entered into the code in the #define section of the Arduino IDE.</i>
 

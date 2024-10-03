@@ -54,27 +54,27 @@ Setelah data Ro didapatkan, maka langkah selanjutnya yaitu memasukkan data Ro te
   
   Bukalah link berikut: <a href="https://automeris.io/WebPlotDigitizer/">WebPlotDigitizer</a> , lalu klik ``` Launch Now! ```. Kemudian klik ``` Load Image ```. Hal tersebut dapat anda ketahui selengkapnya di bawah ini.
 
-<img src="https://user-images.githubusercontent.com/54527592/230691437-6e734c51-a1a1-499b-ab66-c18921d6f26b.jpg">
+<img src="../documentation/experiment/Load Image.jpg" alt="load-image">
   
-  Upload gambar sesuai dengan link yang telah disediakan: <a href="https://github.com/devancakra/MQ2_LPG_Library/blob/master/extras/sensor%20calibration%20graph.png">Klik disini</a>.
+  Upload gambar sesuai dengan link yang telah disediakan: <a href="../documentation/experiment/Calibration Graph.jpg" alt="calibration-graph">Klik disini</a>.
 
 <br>
   
   Kemudian memilih tipe plot: ``` 2D (X-Y) Plot ```. Selanjutnya klik ``` Align Axes ``` → ``` Proceed ```.
 
-<img src="https://user-images.githubusercontent.com/54527592/230691665-0cfe7167-42a9-4b24-8cde-1571c080a7e2.jpg"><br>
+<img src="../documentation/experiment/Plot Type.jpg" alt="plot-type"><br>
   
   Selanjutnya, anda harus memberikan batas nilai, mulai dari ``` X1 → X2 → Y1 → Y2 ```. Selanjutnya klik ``` Complete! ``` untuk mengatur ``` X-Axis ``` dan ``` Y-Axis ```. Jangan lupa untuk mencentang bagian ``` Log Scale ``` → ``` OK ```.
 
-<img src="https://user-images.githubusercontent.com/54527592/230692139-07392ab0-8119-4a60-ba9e-daa5cfeb4a01.jpg"><br>
+<img src="../documentation/experiment/Axes Calibration.jpg" alt="axes-calibration"><br>
   
   Langkah berikutnya, klik ``` Add Point (A) ```, lalu pilih kurva yang diinginkan (dalam hal ini hanya menggunakan LPG dan Propane). Jangan lupa cari titik koordinat yang saling berhimpitan satu sama lain seperti yang ditampilkan pada gambar berikut.
 
-<img src="https://user-images.githubusercontent.com/54527592/230692688-5fdb713c-d8e0-41e0-88d8-cb930f8af38b.jpg"><br>
+<img src="../documentation/experiment/Add Point.jpg" alt="add-point"><br>
   
   Kemudian, klik ``` View Data ``` untuk mengetahui nilai dari titik koordinat yang telah dipilih tadi. Misalnya seperti yang terlihat pada gambar di bawah ini.
 
-<img src="https://user-images.githubusercontent.com/54527592/230692817-40d2f148-5cd2-4255-9fd3-49a02a9cd3c9.jpg"><br>
+<img src="../documentation/experiment/View Data.jpg" alt="view-data"><br>
   
   Langkah terakhir, data koordinat diatas kemudian dimasukkan kedalam kode yang ada di Arduino IDE bagian #define.
 
